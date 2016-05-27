@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+#principal {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height: 100%;	
+}
+#pantalla{
+  float:left;
+  width:100%;
+  height:25%;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9));
+  text-align:center;
+  color:#FFF;
+  font-size:4em;
+  font-weight:bold;
+  font-family:"Times New Roman", Times, serif;
+}
+#teclado{
+  float: left;
+  width: 100%;
+  height: 75%;
+}
+.nota{
+	position::relative;
+	float:left;
+	height:100%;
+	outline:#000 solid 3px;
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(255,0,0,0.5));
+    width:7.142856%;
+}
+.nota1 {
+	top:12%;
+	position:absolute;
+	float:left;
+	height: 40%;
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+}
+.tocada{
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(255,255,255,0.5));
+	color: #0F9;
+	quotes:#FF0 solid 1px;
+}
+
+.textonota{
+	position:relative;
+	top:80%;
+	text-align:center;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#fff;
+
+}
+
+#doSos{
+	margin-top:6.5%;
+	width:30px;
+	height:40%;
+	float:left;
+	margin-left:6%;
+}
+#reSos{
+	margin-top:6.5%;
+    width:30px;
+	height:40%;
+	float:left;
+	margin-left:13%;
+}
+#faSos{
+	margin-top:6.5%;
+    width:30px;
+	height:40%;
+	float:left;
+	margin-left:27.4%;
+}
+#solSos{
+	margin-top:6.5%;
+	width:30px;
+	height:40%;
+	float:left;
+	margin-left:34.6%;
+}
+#laSos{
+	margin-top:6.5%;
+	width:30px;
+	height:40%;
+	float:left;
+	margin-left:41.7%;
+}
+#doSSos{
+	margin-top:6.5%;
+	width:30px;
+	height:40%;
+	float:left;
+	margin-left:56%;
+}
+#reSSos{
+	margin-top:6.5%;
+	width:30px;
+	height:40%;
+	float:left;
+	margin-left:63.2%;
+}
+#faSSos{
+	margin-top:6.5%;
+	width:30px;
+	height:40%;
+	float:left;
+	margin-left:77.4%;
+}
+#solSSos{
+	margin-top:6.5%;
+	width:30px;
+	height:40%;
+	float:left;
+	margin-left:84.5%;
+}
+#laSSos{
+	margin-top:6.5%;
+	width:30px;
+	height:40%;
+	float:left;
+	margin-left:91.7%;
+}
